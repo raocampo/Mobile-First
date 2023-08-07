@@ -1,0 +1,25 @@
+/*
+1. Posicionamiento
+2. Modelo Caja (Box model)
+3. Tipografias
+4. Visuales
+5. Otros
+*/
+:root{
+    /*colores*/
+    --secundario: #182745;
+    --primario: #8fb436;
+    --priLight: #8eb43642;
+    --secLight: #1827452c;
+    --blanco: #fff;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.58%;
+    font-family: 'Ubuntu', sans-serif;
+}
